@@ -1,0 +1,34 @@
+{
+	"name": "petfinder",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier --write \"src/**/*.{js,jsx}\"",
+		"format:check": "prettier --list-different \"src/**/*.{js,jsx}\"",
+		"lint": "eslint \"**/*.{js,jsx}\"",
+		"dev": "parcel src/index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jrapala/petfinder.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jrapala/petfinder/issues"
+	},
+	"homepage": "https://github.com/jrapala/petfinder#readme",
+	"devDependencies": {
+		"eslint": "^5.14.1",
+		"eslint-config-prettier": "^4.0.0",
+		"eslint-plugin-prettier": "^3.0.1",
+		"parcel-bundler": "^1.11.0",
+		"prettier": "^1.16.4"
+	},
+	"dependencies": {
+		"react": "^16.8.3",
+		"react-dom": "^16.8.3"
+	}
+}
